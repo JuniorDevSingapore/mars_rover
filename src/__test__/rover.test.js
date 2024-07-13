@@ -1,4 +1,4 @@
-import { rover } from "./rover";
+import { rover } from "../rover";
 
 test("Rover says hello", () => {
   expect(rover()).toEqual("Hello");
